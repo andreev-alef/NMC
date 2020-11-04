@@ -14,7 +14,7 @@
     $pm = preg_match('/(Гап)/i', $str, $matches);
     echo '<hr />';
     foreach($matches as $s){
-        echo $s.'<br />';
+        echo $s.'<hr />';
     }
     echo $pm;
 ?>
